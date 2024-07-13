@@ -2848,18 +2848,6 @@
 		(uuid "9bcd00ab-1b7a-42cb-8f50-9e71f05a4e6e")
 	)
 	(junction
-		(at 49.53 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9c15072c-3f96-4fa3-9a68-61d4831fff32")
-	)
-	(junction
-		(at 49.53 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b1af42bd-ee5f-4941-97a3-385f1ed2d878")
-	)
-	(junction
 		(at 173.99 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2991,16 +2979,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 104.14) (xy 49.53 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f013704-6b66-4bc0-9a5e-daf07f7be410")
-	)
-	(wire
-		(pts
 			(xy 172.72 62.23) (xy 181.61 62.23)
 		)
 		(stroke
@@ -3041,7 +3019,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 104.14) (xy 59.69 104.14)
+			(xy 39.37 104.14) (xy 50.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3271,7 +3249,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 109.22) (xy 59.69 109.22)
+			(xy 39.37 109.22) (xy 50.8 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3308,16 +3286,6 @@
 			(type default)
 		)
 		(uuid "89146cc5-bb82-43fc-bfc2-b143dd12a0b9")
-	)
-	(wire
-		(pts
-			(xy 39.37 109.22) (xy 49.53 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bcbc750-df57-4646-b3a9-45ef35ef317a")
 	)
 	(wire
 		(pts
@@ -4245,7 +4213,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Type-C:Wurth-632723300011-HandSoldering"
+		(property "Footprint" "Type-C:HRO-TYPE-C-31-M-12-HandSoldering"
 			(at 156.21 48.26 0)
 			(effects
 				(font
@@ -6076,76 +6044,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 49.53 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7849255-18b3-45fa-a88f-f61487f29ed5")
-		(property "Reference" "C8"
-			(at 52.07 105.4162 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 52.07 107.9562 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 49.53 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 49.53 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 49.53 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1f1803c4-356f-439d-b773-eecd28c7f9a9")
-		)
-		(pin "1"
-			(uuid "eb75012c-99f6-499b-b30c-2eb94da9714b")
-		)
-		(instances
-			(project "keeb"
-				(path "/30822975-2315-4055-85bb-b0314c985d97"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small")
 		(at 54.61 60.96 90)
 		(unit 1)
@@ -6624,7 +6522,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 59.69 106.68 0)
+		(at 50.8 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6633,7 +6531,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8b1e73f-42b1-4ce5-b2cb-cf7fdc03f396")
 		(property "Reference" "C5"
-			(at 62.23 105.4162 0)
+			(at 53.34 105.4162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +6540,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 62.23 107.9562 0)
+			(at 53.34 107.9562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,7 +6549,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 59.69 106.68 0)
+			(at 50.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +6558,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 59.69 106.68 0)
+			(at 50.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +6567,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 59.69 106.68 0)
+			(at 50.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
