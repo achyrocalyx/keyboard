@@ -39,6 +39,45 @@
 		(58 "User.9" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+			)
+			(copper_finish "None")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
@@ -824,7 +863,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "0669fd69-ed00-4eb3-8bcf-a49e3d62f460")
-		(at -212.105 116.65)
+		(at 158.75 33.3375)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX7"
 			(at -4.25 -1.75 0)
@@ -982,7 +1021,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -1240,7 +1279,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -1312,7 +1351,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -1904,7 +1943,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -2162,7 +2201,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -2234,7 +2273,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -2350,7 +2389,7 @@
 	(footprint "PCM_marbastlib-mx:STAB_MX_P_2u"
 		(layer "F.Cu")
 		(uuid "0b028582-4c79-49ef-8d2c-96d41d426860")
-		(at -68.438574 109.09)
+		(at 116.68125 127.47625)
 		(descr "Footprint for Cherry Clip/Screw in type stabilizers, 2u")
 		(property "Reference" "S3"
 			(at 0 0 0)
@@ -2661,7 +2700,7 @@
 		)
 		(fp_arc
 			(start 8.53125 -5.499999)
-			(mid 8.677693 -5.853571)
+			(mid 8.677685 -5.853565)
 			(end 9.03125 -5.999999)
 			(stroke
 				(width 0.05)
@@ -2672,7 +2711,7 @@
 		)
 		(fp_arc
 			(start 9.03125 8.000001)
-			(mid 8.677729 7.853537)
+			(mid 8.677693 7.853543)
 			(end 8.53125 7.500001)
 			(stroke
 				(width 0.05)
@@ -2683,7 +2722,7 @@
 		)
 		(fp_arc
 			(start 14.780039 -5.999999)
-			(mid 15.133567 -5.853539)
+			(mid 15.133602 -5.853545)
 			(end 15.280039 -5.499999)
 			(stroke
 				(width 0.05)
@@ -2694,7 +2733,7 @@
 		)
 		(fp_arc
 			(start 15.28125 7.500001)
-			(mid 15.134806 7.853571)
+			(mid 15.1348 7.853536)
 			(end 14.78125 8.000001)
 			(stroke
 				(width 0.05)
@@ -2753,7 +2792,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "0b686be4-edf5-41fd-807d-08e38b79ec98")
-		(at -212.105 41.4)
+		(at 63.5 33.3375)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX2"
 			(at -4.25 -1.75 0)
@@ -2911,7 +2950,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -3169,7 +3208,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -3241,7 +3280,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -3515,7 +3554,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -3773,7 +3812,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -3845,7 +3884,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -4279,7 +4318,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "0ed3b625-8802-4b27-81f9-781219ac9036")
-		(at -212.105 101.6)
+		(at 139.7 33.3375)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX6"
 			(at -4.25 -1.75 0)
@@ -4437,7 +4476,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -4695,7 +4734,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -4767,7 +4806,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -5041,7 +5080,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -5299,7 +5338,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -5371,7 +5410,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -6917,7 +6956,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -7175,7 +7214,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -7247,7 +7286,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -7363,7 +7402,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "16c3ca09-9d47-44b7-b08e-fa6f394f4f77")
-		(at -160.655 116.65)
+		(at 203.73375 76.2)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX40"
 			(at -4.25 -1.75 0)
@@ -7521,7 +7560,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -7779,7 +7818,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -7851,7 +7890,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -8125,7 +8164,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -8383,7 +8422,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -8455,7 +8494,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -9683,7 +9722,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -9941,7 +9980,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -10013,7 +10052,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -10129,7 +10168,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "1938fc0f-7c7f-4ab2-af11-7d969fb3f935")
-		(at -194.955 116.65)
+		(at 63.5 57.15)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX18"
 			(at -4.25 -1.75 0)
@@ -10287,7 +10326,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -10545,7 +10584,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -10617,7 +10656,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -11579,7 +11618,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "1dc2f3a6-9b52-4424-9454-97058f7f85bb")
-		(at -194.955 71.5)
+		(at 311.15 33.3375)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX15"
 			(at -4.25 -1.75 0)
@@ -11737,7 +11776,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -11995,7 +12034,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -12067,7 +12106,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -12341,7 +12380,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -12599,7 +12638,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -12671,7 +12710,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -13105,7 +13144,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "231623e0-3c0c-40d6-b655-76e2476a7e6d")
-		(at -212.105 146.75)
+		(at 196.85 33.3375)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX9"
 			(at -4.25 -1.75 0)
@@ -13263,7 +13302,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -13521,7 +13560,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -13593,7 +13632,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -13867,7 +13906,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -14125,7 +14164,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -14197,7 +14236,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -14949,7 +14988,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "2e223098-47d2-401d-b2b9-031a96848d8d")
-		(at -212.105 131.7)
+		(at 177.8 33.3375)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX8"
 			(at -4.25 -1.75 0)
@@ -15107,7 +15146,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -15365,7 +15404,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -15437,7 +15476,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -15711,7 +15750,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -15969,7 +16008,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -16041,7 +16080,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -16633,7 +16672,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -16891,7 +16930,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -16963,7 +17002,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -17765,7 +17804,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -18023,7 +18062,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -18095,7 +18134,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -18421,7 +18460,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "3dd43e7a-432e-4083-a9eb-95a4c52acd21")
-		(at -160.655 26.35)
+		(at 89.43375 76.2)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX34"
 			(at -4.25 -1.75 0)
@@ -18579,7 +18618,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -18837,7 +18876,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -18909,7 +18948,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -19183,7 +19222,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -19441,7 +19480,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -19513,7 +19552,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -20583,7 +20622,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "4438019a-83c1-4fbd-bc8e-50f3fe11e07c")
-		(at -212.105 176.85)
+		(at 234.95 33.3375)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX11"
 			(at -4.25 -1.75 0)
@@ -20741,7 +20780,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -20999,7 +21038,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -21071,7 +21110,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -21345,7 +21384,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -21603,7 +21642,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -21675,7 +21714,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -21949,7 +21988,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -22207,7 +22246,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -22279,7 +22318,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -24035,7 +24074,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -24293,7 +24332,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -24365,7 +24404,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -24639,7 +24678,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -24897,7 +24936,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -24969,7 +25008,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -25561,7 +25600,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -25819,7 +25858,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -25891,7 +25930,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -26007,7 +26046,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "534059ee-800e-4ad3-91d4-4040d9d43824")
-		(at -177.805 161.8)
+		(at 51.33375 76.2)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX32"
 			(at -4.25 -1.75 0)
@@ -26165,7 +26204,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -26423,7 +26462,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -26495,7 +26534,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -26611,7 +26650,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "5361b93b-478d-4891-b3e5-34ee12d97f23")
-		(at -177.805 176.85)
+		(at 70.38375 76.2)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX33"
 			(at -4.25 -1.75 0)
@@ -26769,7 +26808,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -27027,7 +27066,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -27099,7 +27138,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -27533,7 +27572,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "5968b6e3-c938-4b12-99ef-71cd3b65ccc6")
-		(at -212.105 56.45)
+		(at 82.55 33.3375)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX3"
 			(at -4.25 -1.75 0)
@@ -27691,7 +27730,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -27949,7 +27988,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -28021,7 +28060,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -28613,7 +28652,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -28871,7 +28910,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -28943,7 +28982,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -30223,7 +30262,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "61e21d72-1b81-44a3-9fea-d619e8221ecd")
-		(at -212.105 161.8)
+		(at 215.9 33.3375)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX10"
 			(at -4.25 -1.75 0)
@@ -30381,7 +30420,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -30639,7 +30678,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -30711,7 +30750,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -31145,7 +31184,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "66e38e57-5e77-4d55-b592-c5e5b34c1d00")
-		(at -212.105 71.5)
+		(at 101.6 33.3375)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX4"
 			(at -4.25 -1.75 0)
@@ -31303,7 +31342,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -31561,7 +31600,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -31633,7 +31672,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -31749,7 +31788,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "67aadb67-c0a6-4526-9110-9cca5b97a05f")
-		(at -160.655 131.7)
+		(at 222.78375 76.2)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX41"
 			(at -4.25 -1.75 0)
@@ -31907,7 +31946,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -32165,7 +32204,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -32237,7 +32276,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -33307,7 +33346,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "71d632b5-e2d4-420f-8b9d-71b891758160")
-		(at -177.805 131.7)
+		(at 311.15 57.15)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX30"
 			(at -4.25 -1.75 0)
@@ -33465,7 +33504,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -33723,7 +33762,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -33795,7 +33834,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -34547,7 +34586,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "7d6f8d79-b510-43b9-afef-95fba6e4fb5e")
-		(at -177.805 41.4)
+		(at 177.8 57.15)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX24"
 			(at -4.25 -1.75 0)
@@ -34705,7 +34744,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -34963,7 +35002,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -35035,7 +35074,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -35945,7 +35984,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -36203,7 +36242,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -36275,7 +36314,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -36391,7 +36430,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "8234dfd6-7aa2-4800-8779-6139589cd603")
-		(at -160.655 101.6)
+		(at 184.68375 76.2)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX39"
 			(at -4.25 -1.75 0)
@@ -36549,7 +36588,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -36807,7 +36846,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -36879,7 +36918,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -37313,7 +37352,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "8366af3e-370c-42f2-9c8b-8b641d7d9fa3")
-		(at -160.655 41.4)
+		(at 108.48375 76.2)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX35"
 			(at -4.25 -1.75 0)
@@ -37471,7 +37510,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -37729,7 +37768,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -37801,7 +37840,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -38075,7 +38114,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -38333,7 +38372,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -38405,7 +38444,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -38521,7 +38560,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "869373c6-48a1-44d1-86ff-c27f662a1463")
-		(at -160.655 176.85)
+		(at 279.93375 76.2)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX44"
 			(at -4.25 -1.75 0)
@@ -38679,7 +38718,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -38937,7 +38976,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -39009,7 +39048,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -39443,7 +39482,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "872ee8e4-7755-4e41-a763-884180383b80")
-		(at -194.955 146.75)
+		(at 101.6 57.15)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX20"
 			(at -4.25 -1.75 0)
@@ -39601,7 +39640,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -39859,7 +39898,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -39931,7 +39970,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -40841,7 +40880,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -41099,7 +41138,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -41171,7 +41210,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -41605,7 +41644,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "93f52a6a-f602-4fb4-8e61-4c16d38319ab")
-		(at -177.805 101.6)
+		(at 254 57.15)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX28"
 			(at -4.25 -1.75 0)
@@ -41763,7 +41802,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -42021,7 +42060,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -42093,7 +42132,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -42527,7 +42566,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "95789d66-b0d5-4a59-8cda-1e13e3cfee9b")
-		(at -177.805 56.45)
+		(at 196.85 57.15)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX25"
 			(at -4.25 -1.75 0)
@@ -42685,7 +42724,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -42943,7 +42982,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -43015,7 +43054,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -43289,7 +43328,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -43547,7 +43586,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -43619,7 +43658,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -43735,7 +43774,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "96669552-6af9-408e-8038-8d242abe0ac5")
-		(at -177.805 26.35)
+		(at 158.75 57.15)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX23"
 			(at -4.25 -1.75 0)
@@ -43893,7 +43932,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -44151,7 +44190,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -44223,7 +44262,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -44815,7 +44854,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -45073,7 +45112,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -45145,7 +45184,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -46055,7 +46094,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -46313,7 +46352,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -46385,7 +46424,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -46501,7 +46540,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "9d693b2d-4a3a-4892-abae-136fbe3ad46b")
-		(at -194.955 131.7)
+		(at 82.55 57.15)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX19"
 			(at -4.25 -1.75 0)
@@ -46659,7 +46698,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -46917,7 +46956,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -46989,7 +47028,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -47105,7 +47144,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "9ea14053-83f3-4ae4-a0ec-2706314e4612")
-		(at -194.955 176.85)
+		(at 139.7 57.15)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX22"
 			(at -4.25 -1.75 0)
@@ -47263,7 +47302,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -47521,7 +47560,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -47593,7 +47632,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -47709,7 +47748,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "9f24499b-1d92-4f08-aad2-2579bd9bba5f")
-		(at -212.105 26.35)
+		(at 25.4 33.3375)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX1"
 			(at -4.25 -1.75 0)
@@ -47867,7 +47906,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -48125,7 +48164,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -48197,7 +48236,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -48789,7 +48828,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -49047,7 +49086,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -49119,7 +49158,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -50819,7 +50858,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "ad833d2f-235f-4ff3-a36f-c99f77eefad3")
-		(at -194.955 161.8)
+		(at 120.65 57.15)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX21"
 			(at -4.25 -1.75 0)
@@ -50977,7 +51016,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -51235,7 +51274,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -51307,7 +51346,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -51899,7 +51938,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -52157,7 +52196,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -52229,7 +52268,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -52345,7 +52384,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "b7449b61-6b74-4747-be07-ec580b586b1f")
-		(at -194.955 101.6)
+		(at 44.45 57.15)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX17"
 			(at -4.25 -1.75 0)
@@ -52503,7 +52542,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -52761,7 +52800,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -52833,7 +52872,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -53317,7 +53356,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -53575,7 +53614,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -53647,7 +53686,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -54081,7 +54120,7 @@
 	(footprint "PCM_marbastlib-mx:STAB_MX_2u"
 		(layer "F.Cu")
 		(uuid "ba0f8dd0-d2d9-41ef-831b-87cf6e4b7b0f")
-		(at -68.378574 48.6639)
+		(at 282.575 57.15)
 		(descr "Footprint for Cherry Clip/Screw in type stabilizers, 2u")
 		(property "Reference" "S4"
 			(at 0 0 0)
@@ -54392,7 +54431,7 @@
 		)
 		(fp_arc
 			(start 8.53125 -5.499999)
-			(mid 8.677693 -5.853571)
+			(mid 8.677685 -5.853565)
 			(end 9.03125 -5.999999)
 			(stroke
 				(width 0.05)
@@ -54403,7 +54442,7 @@
 		)
 		(fp_arc
 			(start 9.03125 8.000001)
-			(mid 8.677729 7.853537)
+			(mid 8.677693 7.853543)
 			(end 8.53125 7.500001)
 			(stroke
 				(width 0.05)
@@ -54414,7 +54453,7 @@
 		)
 		(fp_arc
 			(start 14.780039 -5.999999)
-			(mid 15.133567 -5.853539)
+			(mid 15.133602 -5.853545)
 			(end 15.280039 -5.499999)
 			(stroke
 				(width 0.05)
@@ -54425,7 +54464,7 @@
 		)
 		(fp_arc
 			(start 15.28125 7.500001)
-			(mid 15.134806 7.853571)
+			(mid 15.1348 7.853536)
 			(end 14.78125 8.000001)
 			(stroke
 				(width 0.05)
@@ -54662,7 +54701,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -54920,7 +54959,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -54992,7 +55031,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -55794,7 +55833,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -56052,7 +56091,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -56124,7 +56163,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -57194,7 +57233,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "c20b034f-20ae-408f-a1d6-f0e765162c6a")
-		(at -160.655 161.8)
+		(at 260.88375 76.2)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX43"
 			(at -4.25 -1.75 0)
@@ -57352,7 +57391,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -57610,7 +57649,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -57682,7 +57721,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -58116,7 +58155,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "c2f60b46-5ac0-41a8-9e6d-783451da1d1e")
-		(at -194.955 56.45)
+		(at 292.1 33.3375)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX14"
 			(at -4.25 -1.75 0)
@@ -58274,7 +58313,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -58532,7 +58571,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -58604,7 +58643,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -59594,7 +59633,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "cac8b0f2-57c9-4a3a-a6bc-f8da939214ac")
-		(at -160.655 56.45)
+		(at 127.53375 76.2)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX36"
 			(at -4.25 -1.75 0)
@@ -59752,7 +59791,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -60010,7 +60049,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -60082,7 +60121,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -60198,7 +60237,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "cc63fa35-cee2-4882-b4fb-c1f8c6fa34aa")
-		(at -212.105 86.55)
+		(at 120.65 33.3375)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX5"
 			(at -4.25 -1.75 0)
@@ -60356,7 +60395,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -60614,7 +60653,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -60686,7 +60725,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -60960,7 +60999,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -61218,7 +61257,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -61290,7 +61329,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -61406,7 +61445,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "d0b1304d-de2e-40a8-aa6a-7bb73e87479d")
-		(at -160.655 71.5)
+		(at 146.58375 76.2)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX37"
 			(at -4.25 -1.75 0)
@@ -61564,7 +61603,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -61822,7 +61861,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -61894,7 +61933,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -62220,7 +62259,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "d1d83654-d020-401f-9ab5-a70d1f399f1a")
-		(at -177.805 86.55)
+		(at 234.95 57.15)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX27"
 			(at -4.25 -1.75 0)
@@ -62378,7 +62417,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -62636,7 +62675,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -62708,7 +62747,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -63142,7 +63181,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "d376e6f5-bff8-4156-a118-7a96ad9ba67f")
-		(at -177.805 146.75)
+		(at 28.875 76.2)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX31"
 			(at -4.25 -1.75 0)
@@ -63300,7 +63339,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -63558,7 +63597,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -63630,7 +63669,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -64222,7 +64261,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -64480,7 +64519,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -64552,7 +64591,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -67104,7 +67143,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "d8de796c-d9a7-4a18-bf03-daf1bc5f51fc")
-		(at -194.955 41.4)
+		(at 273.05 33.3375)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX13"
 			(at -4.25 -1.75 0)
@@ -67262,7 +67301,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -67520,7 +67559,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -67592,7 +67631,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -68076,7 +68115,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -68334,7 +68373,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -68406,7 +68445,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -68522,7 +68561,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "dc4bf40b-31ed-42a7-8231-ccd7d5c7965e")
-		(at -177.805 71.5)
+		(at 215.9 57.15)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX26"
 			(at -4.25 -1.75 0)
@@ -68680,7 +68719,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -68938,7 +68977,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -69010,7 +69049,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -69444,7 +69483,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "e1ec3aa0-e011-41da-b412-c93eedac32df")
-		(at -177.805 116.65)
+		(at 282.575 57.15)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX29"
 			(at -4.25 -1.75 0)
@@ -69602,7 +69641,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -69860,7 +69899,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -69932,7 +69971,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -70302,7 +70341,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "e5b93597-9085-41fb-8fa5-f0af5072685d")
-		(at -194.955 86.55)
+		(at 25.4 57.15)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX16"
 			(at -4.25 -1.75 0)
@@ -70460,7 +70499,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -70718,7 +70757,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -70790,7 +70829,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -72171,7 +72210,7 @@
 		)
 		(fp_arc
 			(start 46.63125 -5.499999)
-			(mid 46.777693 -5.853571)
+			(mid 46.777699 -5.853535)
 			(end 47.13125 -5.999999)
 			(stroke
 				(width 0.05)
@@ -72182,7 +72221,7 @@
 		)
 		(fp_arc
 			(start 47.13125 8.000001)
-			(mid 46.777729 7.853537)
+			(mid 46.777693 7.853543)
 			(end 46.63125 7.500001)
 			(stroke
 				(width 0.05)
@@ -72193,7 +72232,7 @@
 		)
 		(fp_arc
 			(start 52.880039 -5.999999)
-			(mid 53.233567 -5.853539)
+			(mid 53.233602 -5.853545)
 			(end 53.380039 -5.499999)
 			(stroke
 				(width 0.05)
@@ -72204,7 +72243,7 @@
 		)
 		(fp_arc
 			(start 53.38125 7.500001)
-			(mid 53.234806 7.853571)
+			(mid 53.2348 7.853536)
 			(end 52.88125 8.000001)
 			(stroke
 				(width 0.05)
@@ -72421,7 +72460,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -72679,7 +72718,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -72751,7 +72790,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -73235,7 +73274,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -73493,7 +73532,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -73565,7 +73604,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -73681,7 +73720,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "efa87cbc-c3fe-48a3-a23d-ec5a2e2f7f0c")
-		(at -194.955 26.35)
+		(at 254 33.3375)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX12"
 			(at -4.25 -1.75 0)
@@ -73839,7 +73878,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -74097,7 +74136,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -74169,7 +74208,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -74443,7 +74482,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -74701,7 +74740,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -74773,7 +74812,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -75522,6 +75561,601 @@
 			)
 		)
 	)
+	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+		(layer "F.Cu")
+		(uuid "f3874036-7d50-4af6-894f-2ac4e8f83eed")
+		(at 308.13375 77.94625)
+		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
+		(property "Reference" "MX31"
+			(at -4.25 -1.75 0)
+			(layer "F.SilkS")
+			(uuid "8c92755f-dfc1-42f1-ab99-8d506f14b333")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "tab"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "91f10a6d-b820-4a6c-8b3b-6f4b2cf90dcd")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3deff5bb-cf39-4dce-9cfc-cdd3ac2bc965")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "72b110fe-5414-47c7-965f-5143dbc81219")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Push button switch, normally open, two pins, 45° tilted, Kailh CPG151101S11 for Cherry MX style switches"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "96067207-36b2-4560-ad51-890efc37787c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(attr smd)
+		(fp_line
+			(start -4.864824 -6.75022)
+			(end -4.864824 -6.52022)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "8ed48579-ee19-452d-a797-56c713547ba9")
+		)
+		(fp_line
+			(start -4.864824 -3.67022)
+			(end -4.864824 -3.20022)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "02917e4c-1413-4a92-a2bf-60c25763d1d4")
+		)
+		(fp_line
+			(start -4.364824 -2.70022)
+			(end 0.2 -2.70022)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5b3a4536-f66f-46fe-9e7c-58c16b05682a")
+		)
+		(fp_line
+			(start -3.314824 -6.75022)
+			(end -4.864824 -6.75022)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "252206ef-1702-41fa-b333-dc3df6742114")
+		)
+		(fp_line
+			(start 4.085176 -6.75022)
+			(end -1.814824 -6.75022)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "255e6870-8979-4e39-9ed1-91848effafc1")
+		)
+		(fp_line
+			(start 6.085176 -3.95022)
+			(end 6.085176 -4.75022)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "3c58a1c3-5f52-4070-96f8-f427518cfd78")
+		)
+		(fp_line
+			(start 6.085176 -1.10022)
+			(end 6.085176 -0.86022)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "4f5552ea-c779-4ace-bb09-42a41e4f87bd")
+		)
+		(fp_arc
+			(start -4.364824 -2.70022)
+			(mid -4.718377 -2.846667)
+			(end -4.864824 -3.20022)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "79489d45-95b8-49b2-ad64-8a4af275214f")
+		)
+		(fp_arc
+			(start 0.2 -2.70022)
+			(mid 1.670693 -2.183637)
+			(end 2.494322 -0.86022)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "b1c7feb6-a63a-435b-bcf7-ee0cc8204e68")
+		)
+		(fp_arc
+			(start 4.085176 -6.75022)
+			(mid 5.499389 -6.164434)
+			(end 6.085176 -4.75022)
+			(stroke
+				(width 0.15)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "2db10be7-df26-434c-aedf-5781f24aab20")
+		)
+		(fp_rect
+			(start -9.525 -9.525)
+			(end 9.525 9.525)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Dwgs.User")
+			(uuid "140c43b7-ec60-441b-8a45-75a22ce6fcb4")
+		)
+		(fp_line
+			(start -7 -6.5)
+			(end -7 6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Eco2.User")
+			(uuid "10f08d20-330d-4ff4-ac4e-698110b88211")
+		)
+		(fp_line
+			(start -6.5 7)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Eco2.User")
+			(uuid "43662c63-f573-48e8-9613-ae8b68f0e5b0")
+		)
+		(fp_line
+			(start 6.5 -7)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Eco2.User")
+			(uuid "add2965b-264f-4e61-88b8-2765718fad0a")
+		)
+		(fp_line
+			(start 7 6.5)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Eco2.User")
+			(uuid "09e9c5bc-927e-46c2-ab9e-546c6bb87a60")
+		)
+		(fp_arc
+			(start -7 -6.5)
+			(mid -6.853553 -6.853553)
+			(end -6.5 -7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Eco2.User")
+			(uuid "cf4cf65f-c858-4110-b2aa-0aacef667915")
+		)
+		(fp_arc
+			(start -6.497236 6.998884)
+			(mid -6.850789 6.852437)
+			(end -6.997236 6.498884)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Eco2.User")
+			(uuid "ea8a7391-51d9-4757-9a07-cf5195c5454b")
+		)
+		(fp_arc
+			(start 6.5 -7)
+			(mid 6.853553 -6.853553)
+			(end 7 -6.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Eco2.User")
+			(uuid "7ccd155e-7b40-47a5-bd45-e74de4223831")
+		)
+		(fp_arc
+			(start 7 6.5)
+			(mid 6.853553 6.853553)
+			(end 6.5 7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "Eco2.User")
+			(uuid "4118fdc8-746a-401c-89be-ebb317bb4b1e")
+		)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill none)
+			(layer "B.CrtYd")
+			(uuid "c2010792-f334-41bd-9411-3b5f5422bf03")
+		)
+		(fp_line
+			(start -7.414824 -6.32022)
+			(end -4.864824 -6.32022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "ea7e7836-e9db-4ee5-b5dd-41a20136b341")
+		)
+		(fp_line
+			(start -7.414824 -3.87022)
+			(end -7.414824 -6.32022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "c0d734a4-c1b5-4a05-933d-852254ceb25c")
+		)
+		(fp_line
+			(start -4.864824 -6.75022)
+			(end -4.864824 -6.32022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0ae5416a-af96-4e3f-b246-9e6c22ddfcb5")
+		)
+		(fp_line
+			(start -4.864824 -3.87022)
+			(end -7.414824 -3.87022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "e3ecd04f-1666-4515-a6a6-12a2d23b3872")
+		)
+		(fp_line
+			(start -4.864824 -3.87022)
+			(end -4.864824 -2.70022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "242e12d0-b99f-40c2-b38a-646e54f1dc79")
+		)
+		(fp_line
+			(start -4.864824 -2.70022)
+			(end 0.2 -2.70022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2d71b49d-79d4-4cc8-a0e2-4aa7a73a9ac1")
+		)
+		(fp_line
+			(start 4.085176 -6.75022)
+			(end -4.864824 -6.75022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "439d82da-775c-4174-84e0-5b39cc1cc4ce")
+		)
+		(fp_line
+			(start 6.085176 -3.75022)
+			(end 6.085176 -4.75022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7306ca48-20e7-4628-9ba1-8b8371c0261f")
+		)
+		(fp_line
+			(start 6.085176 -3.75022)
+			(end 8.685176 -3.75022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "f3737786-712e-4b71-a98d-56be2f802ba3")
+		)
+		(fp_line
+			(start 6.085176 -1.30022)
+			(end 6.085176 -0.86022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "be34008b-6811-4bc3-ab29-2a0e2d427633")
+		)
+		(fp_line
+			(start 6.085176 -0.86022)
+			(end 2.494322 -0.86022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7d9481f9-8d11-4b8d-a15b-9c235b487d43")
+		)
+		(fp_line
+			(start 8.685176 -3.75022)
+			(end 8.685176 -1.30022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "7372069f-1c95-4990-9a41-64bf7376bb9d")
+		)
+		(fp_line
+			(start 8.685176 -1.30022)
+			(end 6.085176 -1.30022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "8a2a4190-9532-4c52-912f-5016243d1cb6")
+		)
+		(fp_arc
+			(start 0.2 -2.70022)
+			(mid 1.670502 -2.183399)
+			(end 2.494322 -0.86022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4cc4e630-aaaa-4e47-9ae6-dad14f0254db")
+		)
+		(fp_arc
+			(start 4.085176 -6.75022)
+			(mid 5.499389 -6.164434)
+			(end 6.085176 -4.75022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "cf7134d1-dc57-4bc6-979a-0aa7b3202999")
+		)
+		(fp_line
+			(start -4.864824 -6.75022)
+			(end -4.864824 -2.70022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "aa60d9ff-01af-4254-abd3-c8f796044e9d")
+		)
+		(fp_line
+			(start -4.864824 -2.70022)
+			(end 0.2 -2.70022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "090a8550-38af-474a-9470-18c80041facd")
+		)
+		(fp_line
+			(start 4.085176 -6.75022)
+			(end -4.864824 -6.75022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "52d9d743-f9b4-49ff-9133-8772de3b8e02")
+		)
+		(fp_line
+			(start 6.085176 -0.86022)
+			(end 2.494322 -0.86022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4d2e398a-4156-4638-81d2-b0b7edbfb381")
+		)
+		(fp_line
+			(start 6.085176 -0.86022)
+			(end 6.085176 -4.75022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "71254dac-f6ea-48d8-9a38-5b5134d1a97a")
+		)
+		(fp_arc
+			(start 0.2 -2.70022)
+			(mid 1.670502 -2.183399)
+			(end 2.494322 -0.86022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "eedc3d96-9400-4963-ba36-115288d4c578")
+		)
+		(fp_arc
+			(start 4.085176 -6.75022)
+			(mid 5.499389 -6.164434)
+			(end 6.085176 -4.75022)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "214482e9-92e2-4d67-8c4c-a4b08cc86de0")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.5 -4.5 0)
+			(layer "F.Fab")
+			(uuid "89439af4-b63f-4c4f-be6d-893c063b29b3")
+			(effects
+				(font
+					(size 0.8 0.8)
+					(thickness 0.12)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at -5.08 0)
+			(size 1.75 1.75)
+			(drill 1.75)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "010c3919-63e4-40d7-a040-d685c3307f83")
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 3.9878 3.9878)
+			(drill 3.9878)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "5e3a1a9d-5e8b-4870-a108-79f9b1ad8409")
+		)
+		(pad "" np_thru_hole circle
+			(at 5.08 0)
+			(size 1.75 1.75)
+			(drill 1.75)
+			(layers "F&B.Cu" "*.Mask")
+			(uuid "3e1e4375-09d6-41c7-b99d-cd2b4993cd2d")
+		)
+		(pad "1" thru_hole circle
+			(at 3.81 -2.54)
+			(size 3.3 3.3)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "8b6e740c-6bac-4e0b-a1fd-4269d922ea0f")
+		)
+		(pad "1" smd rect
+			(at 5.635 -2.54 180)
+			(size 1.65 2.5)
+			(layers "F.Cu")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "0fd6587d-e1db-47aa-839c-5f1018546fae")
+		)
+		(pad "1" smd roundrect
+			(at 7.36 -2.54)
+			(size 2.55 2.5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "f7e8c0bd-cbaa-405b-a6f8-fe5efa369c6d")
+		)
+		(pad "2" smd roundrect
+			(at -6.09 -5.08)
+			(size 2.55 2.5)
+			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.1)
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "11cf1d66-45c9-4943-9367-7a7af5ba58bc")
+		)
+		(pad "2" smd rect
+			(at -4.34 -5.08)
+			(size 1.65 2.5)
+			(layers "F.Cu")
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "10d0389d-8ab4-4e0d-9c1f-70624f2ea51b")
+		)
+		(pad "2" thru_hole circle
+			(at -2.54 -5.08)
+			(size 3.3 3.3)
+			(drill 3)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(pinfunction "2")
+			(pintype "passive")
+			(uuid "3550cf1e-050a-4bfd-bfa2-e3ac69df9697")
+		)
+		(model "${KICAD8_3RD_PARTY}/3dmodels/com_github_ebastler_marbastlib/HS_CPG151101S11_MX.step"
+			(offset
+				(xyz -4.82 6.74 1.82)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 180 0 0)
+			)
+		)
+	)
 	(footprint "Diode_SMD:D_SOD-123"
 		(layer "F.Cu")
 		(uuid "f40cf396-1f54-452b-83e1-0a254091c6b6")
@@ -76001,7 +76635,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -76259,7 +76893,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -76331,7 +76965,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -76923,7 +77557,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -77181,7 +77815,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -77253,7 +77887,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -77369,7 +78003,7 @@
 	(footprint "PCM_marbastlib-mx:STAB_MX_2u"
 		(layer "F.Cu")
 		(uuid "f64ec4ed-f62c-416c-9efd-450d45e52b2e")
-		(at -68.378574 28.37)
+		(at 33.3375 102.07625)
 		(descr "Footprint for Cherry Clip/Screw in type stabilizers, 2u")
 		(property "Reference" "S2"
 			(at 0 0 0)
@@ -77680,7 +78314,7 @@
 		)
 		(fp_arc
 			(start 8.53125 -5.499999)
-			(mid 8.677693 -5.853571)
+			(mid 8.677685 -5.853565)
 			(end 9.03125 -5.999999)
 			(stroke
 				(width 0.05)
@@ -77691,7 +78325,7 @@
 		)
 		(fp_arc
 			(start 9.03125 8.000001)
-			(mid 8.677729 7.853537)
+			(mid 8.677693 7.853543)
 			(end 8.53125 7.500001)
 			(stroke
 				(width 0.05)
@@ -77702,7 +78336,7 @@
 		)
 		(fp_arc
 			(start 14.780039 -5.999999)
-			(mid 15.133567 -5.853539)
+			(mid 15.133602 -5.853545)
 			(end 15.280039 -5.499999)
 			(stroke
 				(width 0.05)
@@ -77713,7 +78347,7 @@
 		)
 		(fp_arc
 			(start 15.28125 7.500001)
-			(mid 15.134806 7.853571)
+			(mid 15.1348 7.853536)
 			(end 14.78125 8.000001)
 			(stroke
 				(width 0.05)
@@ -79219,10 +79853,10 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "fa3d6463-3233-46dc-9bb1-6102e5282474")
-		(at -160.655 146.75)
+		(at 241.83375 76.2)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX42"
-			(at -4.25 -1.75 0)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "2784c758-a754-4fb0-af8e-24847cbaefb8")
 			(effects
@@ -79377,7 +80011,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -79635,7 +80269,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -79707,7 +80341,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -79981,7 +80615,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -80239,7 +80873,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -80311,7 +80945,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -80903,7 +81537,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -81161,7 +81795,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -81233,7 +81867,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -81349,7 +81983,7 @@
 	(footprint "PCM_marbastlib-mx:SW_MX_HS_CPG151101S11_1u"
 		(layer "F.Cu")
 		(uuid "fcc63b05-27b6-4ae8-8984-5287124a92ba")
-		(at -160.655 86.55)
+		(at 165.63375 76.2)
 		(descr "Footprint for Cherry MX style switches with Kailh hotswap socket")
 		(property "Reference" "MX38"
 			(at -4.25 -1.75 0)
@@ -81507,7 +82141,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.15)
@@ -81765,7 +82399,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -81837,7 +82471,7 @@
 		)
 		(fp_arc
 			(start 4.085176 -6.75022)
-			(mid 5.499392 -6.164435)
+			(mid 5.499389 -6.164434)
 			(end 6.085176 -4.75022)
 			(stroke
 				(width 0.05)
@@ -83261,5 +83895,25 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_line
+		(start 15.875 66.675)
+		(end 41.875 66.675)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "160cba93-f1cb-434c-9469-5639f212b22b")
+	)
+	(gr_line
+		(start 34.925 33.3375)
+		(end 53.975 33.3375)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.Cu")
+		(uuid "b66ea4bb-fd33-4305-a8c6-aeff7cb355de")
 	)
 )
